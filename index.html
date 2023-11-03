@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+    
+    <title>Game</title>
+</head>
+<body>
+  <!-- Characater select -->
+    <!-- <div class="character-select">
+      <div class="player-select">
+          <h2>Player 1 Select Character</h2>
+          <div class="character-options" id="player1-options">
+              
+              <div class="character-option" data-character="samuraiMack">
+                  <img src="assets\samuraiMack\zEoWaW.gif" alt="Character 1">
+                  <span>Character 1</span>
+              </div>
+              <div class="character-option" data-character="kenji">
+                <img src="assets\kenji\+qs9oQ.gif" alt="Character 2">
+                <span>Character 2</span>
+            </div>
+            
+          </div>
+      </div>
+      <div class="player-select">
+          <h2>Player 2 Select Character</h2>
+          <div class="character-options" id="player2-options">
+             
+              <div class="character-option" data-character="kenji">
+                  <img src="assets\kenji\+qs9oQ.gif" alt="Character 2">
+                  <span>Character 2</span>
+              </div>
+              <div class="character-option" data-character="samuraiMack">
+                <img src="assets\samuraiMack\zEoWaW.gif" alt="Character 1">
+                <span>Character 1</span>
+              </div>
+              
+          </div>
+      </div> 
+      <button id="start-game">Start Game</button>
+  </div>-->
+  <!-- <div class="game-container" style="display: none;"> -->
+    <!-- red container div -->
+    <div class="red-container">
+      <!-- smaller red container div -->
+      <div class="smaller-container">
+        <!-- player health -->
+        <div class="player-health-container">
+          <div class="player-health-bar"></div>
+          <div id="playerHealth"></div>
+        </div>
+
+        <!-- timer -->
+        <div id="timer">
+          10
+        </div>
+        <!-- enemy health -->
+        <div class="enemy-health-container">
+          <div class="enemy-health-bar"></div>
+          <div id="enemyHealth"></div>
+
+        </div>
+        <div></div>
+      </div>
+      <!-- Game Over Text -->
+      <div id="displayText">Tie</div>
+      <!-- Restart Button -->
+      <div id="restartButton"><button>Restart</button></div>
+      <!-- Canvas (Game Area) -->
+      <canvas></canvas>
+    </div>
+  <!-- </div> -->
+    
+    
+</body>
+</html>
